@@ -5,13 +5,12 @@ import { ethers } from "ethers";
 import Web3 from "web3";
 import { supportNetwork, RPC_URLS } from "./network";
 
-export const CHAIN_ID = 1;
+export const CHAIN_ID = 109;
 export const infura_Id = "_1jxmHKFpouR8RjnG8NdYG1o21yT37GB";
 
 export const getRpcUrl = () => {
   return {
-    1: "https://eth-mainnet.g.alchemy.com/v2/_1jxmHKFpouR8RjnG8NdYG1o21yT37GB",
-    5: "https://eth-goerli.g.alchemy.com/v2/5N02vS8nblN4kMJBLwV4N_gU7ZtSUL7O",
+    109: "https://www.shibrpc.com",
   }[CHAIN_ID];
 };
 
@@ -37,8 +36,8 @@ export const walletconnect = new WalletConnectConnector({
 });
 
 export const coinbaseWallet = new WalletLinkConnector({
-  url: `https://eth-mainnet.g.alchemy.com/v2/_1jxmHKFpouR8RjnG8NdYG1o21yT37GB`,
-  appName: "Lauchpad App",
+  url: `https://www.shibrpc.com`,
+  appName: "Bonelock",
   supportedChainIds: supportChainId,
 });
 

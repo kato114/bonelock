@@ -35,7 +35,7 @@ export default function TokenLockList() {
                 data-toggle="buttons"
               >
                 <label className="btn d-table text-uppercase p-2">
-                  <Link to="/token-locked" className="explore-btn text-white">
+                  <Link to="/token-locked" className="explore-btn text-black">
                     <span>TokenLock List</span>
                   </Link>
                 </label>

@@ -585,7 +585,7 @@ export default function Lock() {
                   handleMax();
                 }}
                 style={{
-                  borderColor: "white",
+                  borderColor: "#222",
                   borderWidth: "1px",
                   borderLeft: "0px",
                 }}

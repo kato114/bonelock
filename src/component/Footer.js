@@ -14,7 +14,7 @@ export default function Footer() {
                 <div className="social-icons d-flex justify-content-center my-4">
                   <a
                     className="twitter"
-                    href="https://twitter.com/BankOfShibarium/"
+                    href="https://twitter.com/BoneLock_"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -22,7 +22,7 @@ export default function Footer() {
                   </a>
                   <a
                     className="telegram"
-                    href="https://t.me/BankOfShibarium/"
+                    href="https://t.me/BoneLockPortal"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -30,7 +30,7 @@ export default function Footer() {
                   </a>
                 </div>
                 <div className="copyright-area py-2">
-                  Copyright &copy; 2023 Bank Of Shibarium. All Rights Reserved.
+                  Copyright &copy; 2023 Bonelock. All Rights Reserved.
                 </div>
               </div>
             </div>

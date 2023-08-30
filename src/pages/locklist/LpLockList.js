@@ -41,7 +41,7 @@ export default function LpLockList() {
                   </Link>
                 </label>
                 <label className="btn d-table text-uppercase p-2">
-                  <Link to="/my-lp-lock" className="explore-btn text-white">
+                  <Link to="/my-lp-lock" className="explore-btn text-black">
                     <span>My Lock</span>
                   </Link>
                 </label>

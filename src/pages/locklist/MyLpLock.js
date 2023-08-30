@@ -38,7 +38,7 @@ export default function LpLockList() {
                 <label className="btn d-table text-uppercase p-2">
                   <Link
                     to="/liquidity-locked"
-                    className="explore-btn text-white"
+                    className="explore-btn text-black"
                   >
                     <span>LpLock List</span>
                   </Link>

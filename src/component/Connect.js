@@ -30,6 +30,7 @@ export const Connect = function () {
       return "Metamask not deteced";
     }
     if (error instanceof UnsupportedChainIdError) {
+      console.log(error);
       return (
         <span
           className="btn-text"
@@ -165,7 +166,7 @@ export const Connect = function () {
             <div className="row">
               <div className="col-12">
                 <button
-                  className="btn btn-dark modal-btn-connect"
+                  className="btn modal-btn-connect"
                   onClick={() => {
                     activate(injected);
                     setShow(false);
@@ -183,7 +184,7 @@ export const Connect = function () {
               </div>
               <div className="col-12">
                 <button
-                  className="btn btn-dark modal-btn-connect"
+                  className="btn modal-btn-connect"
                   onClick={() => {
                     activate(walletconnect);
                     setShow(false);
@@ -201,7 +202,7 @@ export const Connect = function () {
               </div>
               <div className="col-12">
                 <button
-                  className="btn btn-dark modal-btn-connect"
+                  className="btn modal-btn-connect"
                   onClick={() => {
                     activate(coinbaseWallet);
                     setShow(false);
@@ -219,7 +220,7 @@ export const Connect = function () {
               </div>
               <div className="col-12">
                 <button
-                  className="btn btn-dark modal-btn-connect"
+                  className="btn modal-btn-connect"
                   onClick={() => {
                     activate(injected);
                     setShow(false);
@@ -258,7 +259,7 @@ export const Connect = function () {
                 return (
                   <div className="col-12" key={key}>
                     <button
-                      className="btn btn-dark modal-btn-connect"
+                      className="btn modal-btn-connect"
                       onClick={() => {
                         switchNetwork(supportNetwork[key].chainId);
                         setNetworkshow(false);
